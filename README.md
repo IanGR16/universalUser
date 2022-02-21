@@ -1,12 +1,14 @@
 # universalUser
 
+O objetivo deste projeto é criar servidor de "usuário universal", onde com ele sera possível ser integrado em todos os canais da empresa para que o cliente tenha a mesma conta e histórico independente do canal que ela acesse, seguindo o conceito Omnichannel.
+
 ## Como instalar e rodar? 🚀
 
 Para instalar o sistema, é necessário seguir alguns passos, como baixar o projeto e fazer instalação das dependências. Para isso, é necessário abrir uma aba do terminal e digitar o seguinte:
 
 `# Este passo é para baixar o projeto`
 ```bash
-git clone https://github.com/<your_user>/e-4-generic-views-kmdb.git
+git clone https://github.com/<your_user>/universalUser.git
 ```
 Depois que terminar de baixar, é necessário entrar na pasta, criar um ambiente virtual e entrar nele:
 
