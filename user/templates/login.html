@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form {
+            display: flex;
+            justify-content: center;
+
+        }
+        input{
+            margin: 5px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <form class="form" method="post">
+        <fieldset>
+            <label for="username">Nome:</label>
+            <input 
+            type="text" 
+            id="username" 
+            name="username" 
+            placeholder="Digite seu nome aqui" 
+            required />
+
+            <br/>
+
+            <label for="password">Senha:</label>
+            <input 
+            type="password" 
+            id="password" 
+            name="password" 
+            placeholder="Digite seu sobrenome aqui"    
+            required />
+
+            <br/>
+            
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+    {% if status_code == 200%}
+        {{token}}
+
+    {% elif status_code == 401 %}
+        {{err}}
+    {% else %}
+        
+    {% endif %}
+</body>
+</html>

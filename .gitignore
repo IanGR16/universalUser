@@ -1,0 +1,7 @@
+venv
+*.pyc
+node_modules
+package-lock.json
+db.sqlite3
+dist
+webpack-stats.json
